@@ -16,6 +16,9 @@ public class ConnectionUtil {
     private static String password = "sa";
 
     private static Connection connection = null;
+    private ConnectionUtil(){
+        
+    }
 
     /**
      * @return active connection to the database
